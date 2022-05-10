@@ -48,28 +48,29 @@
 // ESERCISIO
 
 
-var nome = window.prompt("Nome");
-var cognome =window.prompt("Cognome");
-var eta =window.prompt("Eta");
-var citta =window.prompt("Citta");
-var email =window.prompt("email");
+// var tag = document.createElement("p");
+// var text = document.createTextNode(eta);
+// tag.appendChild(text);
+// var element = document.getElementById("new");
+// element.appendChild(tag);
 
-// console.log(nome + " "+cognome + " "+eta + " "+citta + " "+ email+ " " );
+alert('benventuto al nostro Sito');
+
+
+var nome = window.prompt("Inserici il tuo Nome");
+var cognome =window.prompt("Inserici il tuo Cognome");
+var eta =window.prompt("Inserici la tua Eta");
+var citta =window.prompt("Inserici la tua Citta");
+var email =window.prompt("Inserici la tua email");
 
 document.getElementById("nome").innerHTML = nome;
 document.getElementById("cognome").innerHTML = cognome;
 document.getElementById("eta").innerHTML = eta ;
 document.getElementById("citta").innerHTML = citta;
 document.getElementById("email").innerHTML = email;
-// document.getElementById("nome", "congnome", "eta", "citta", "email").innerHTML =nome, congnome, eta, citta, email;
 
-window.alert(nome + " "+cognome + " "+eta + " "+citta + " "+ email+ " " );
+var fullname = nome + ' ' + cognome + 'anni:' + eta + 'citta:' + citta + '(' + email + ')';
 
-
-var tag = document.createElement("p");
-var text = document.createTextNode(eta);
-tag.appendChild(text);
-var element = document.getElementById("new");
-element.appendChild(tag);
-
-
+window.alert(fullname);
+document.write(fullname);
+console.log(fullname);

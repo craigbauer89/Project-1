@@ -1,4 +1,28 @@
 
-        h3 {
-            font-style: bold;
+       body {
+           background-color: grey;
+       }
+       
+       h3 {
+            font-style: italic;
+        }
+
+        #new {
+            width: 70%;
+            margin: 0 auto;
+            background: whitesmoke;
+            border: 1px solid black;
+            padding: 1em;
+        }
+
+        .new h1  {
+            text-align: center;
+        }
+
+        p {
+            font-style: italic;
+        }
+
+        div span {
+            color: red;
         }
